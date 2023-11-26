@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Tilt+Neon&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@700&display=swap" rel="stylesheet">
+
+
+    <title>School Staffs</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Tilt Neon', sans-serif;
+
+        }
+
+        i {
+            margin: 0 10px;
+        }
+
+        body {
+            background-image: url('images/classmatephotos1.png');
+            background-position: top;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+
+        h3 {
+            font-size: large;
+            /*font-family: 'Lilita One', sans-serif;*/
+            font-family: 'Playpen Sans', cursive;
+
+        }
+
+
+        .main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hods {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .b {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .heads {
+
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            text-decoration: underline;
+
+        }
+
+        .contentss {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+            width: 1000px;
+        }
+
+        .one {
+            width: 90px;
+            height: 90px;
+            border-radius: 50px;
+            margin: auto;
+            margin-bottom: 10px;
+            background-image: url("images/gaurii.jpg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .two {
+            width: 250px;
+            height: 170px;
+            margin-bottom: 20px;
+            text-align: center;
+            padding: 0 10px;
+        }
+
+        .midcont {
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .img1 {
+            background-image: url("images/sukantnayaksir.png");
+            background-size: 110px;
+        }
+
+        .img2 {
+            background-image: url('images/teachertwo.jpg');
+        }
+
+        .img3 {
+            background-image: url("images/ash yadav.jpg");
+
+        }
+
+        .icons {
+            width: 35px;
+            height: 35px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: inline-block;
+        }
+
+        .quali {
+            background-image: url('images/hat.png');
+        }
+
+        .subs {
+            background-image: url('images/topic-selection-person-in-charge.png');
+            width: 40px;
+            height: 40px;
+
+        }
+
+
+
+        span {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .img4 {
+            background-image: url("images/teacherone.png");
+
+        }
+
+        .img5 {
+            background-image: url('images/teacherone.png');
+        }
+
+        .imgvikrant {
+            background-image: url('images/teacherone.png');
+        }
+
+        nav {
+
+            width: 70vw;
+            height: 10vh;
+            background-color: white;
+            color: black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 50px;
+            font-weight: bold;
+        }
+
+        li {
+            list-style-type: none;
+            padding: 0 20px;
+
+        }
+
+        .toplayerrrr {
+            width: 100%;
+            height: 40vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .toone {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .heder {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .cotact {
+            color: white;
+        }
+
+        .hambergar {
+            display: none;
+        }
+
+        ul,
+        .iconss {
+            display: flex;
+
+        }
+
+        img {
+            width: 100px;
+        }
+
+        .meetourtechs {
+            display: flex;
+            justify-content: center;
+            font-family: 'Caprasimo', serif;
+            font-size: 35px;
+
+        }
+
+        .schoolname h1 {
+            display: flex;
+            justify-content: center;
+            font-family: 'Caprasimo', serif;
+            font-size: 40px;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .maon {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .parabelo {
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .footers {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+        }
+
+        .ftioc {
+            margin-top: 15px;
+
+        }
+
+
+        .outer_main {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            padding: 50px 0;
+        }
+
+        .top_footer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+        }
+
+        .leftfooter {
+            width: 450px;
+
+        }
+
+        .rightfooter {
+            width: 450px;
+            text-align: center;
+
+
+        }
+
+        .margingfooter {
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        .leftsec {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 550px;
+            text-align: center;
+
+        }
+
+        .topclasss {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+
+        }
+
+        .imagediv {
+            width: 400px;
+            height: 50px;
+            background-position: center;
+            background-image: url('images/30a95de3d3a4230046d8507d008a928d.jpg');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .quotes {
+            width: 300px;
+            height: 150px;
+            text-align: center;
+            position: absolute;
+            top: 450px;
+            left: 50px;
+            color: rgb(8, 8, 8);
+        }
+
+        @media screen and (width<850px) {
+
+            body {
+                background-image: url('images/classmatesstwo2.png');
+            }
+
+            .leftsec {
+
+                margin-top: 270px;
+                text-align: center;
+
+            }
+
+            .schoolname h1 {
+
+                font-size: 30px;
+
+            }
+
+
+
+            .top_footer {
+                flex-direction: column;
+            }
+
+            .leftfooter {
+                width: 350px;
+
+            }
+
+            .rightfooter {
+                width: 300px;
+            }
+
+            .margingfooter {
+                width: 300px;
+            }
+
+
+            .menuone {
+                display: none;
+            }
+
+            .hambergar {
+                display: flex;
+            }
+
+            .parabelo {
+                width: 300px;
+
+            }
+
+            .quotes {
+                display: none;
+            }
+
+            .kamkaroo {
+                width: 250px;
+            }
+
+            .meetourtechs {
+
+                margin-top: 50px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="toplayerrrr">
+        <div class="toone">
+            <div class="lgo">
+                <img src="images/schoollogooooooo.png" alt="starlogo">
+            </div>
+            <div class="cotact">
+                <i class="fi fi-sr-phone-call"></i>
+                Tel. 8080694522 / <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9156960791
+            </div>
+        </div>
+        <div class="heder">
+            <nav>
+                <ul class="menuone">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="staffs.html">Teachers</a></li>
+                    <li><a href="images.html">Gallery</a></li>
+                </ul>
+
+                <div class="hambergar" id="hammm">
+                    <label for="mobinavigation">&#9776;</label>
+                </div>
+                <div class="iconss">
+                    <i class="fi fi-brands-youtube"></i>
+                    <i class="fi fi-brands-facebook"></i>
+                    <i class="fi fi-brands-instagram"></i>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="schoolname">
+        <h1>Twinkle Star English High School</h1>
+    </div>
+
+    <div class="quotes">
+        <p>
+        <h2>This is heading for you</h2>
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, dolorem?</h6>
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus magni reiciendis nobis aut tempora
+        perspiciatis accusantium at quo eume."
+        </p>
+    </div>
+
+
+    <div class="leftsec">
+        <div class="meetourtechs">
+            Meet Our Teachers
+        </div>
+        <div class="kamkaroo">
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, voluptas.</h6>
+        </div>
+        <div class="maon">
+            <p class="parabelo">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repellat fugit ab distinctio saepe
+                reprehenderit sunt quod dolore dolorem debitis quod, reprehenderit architecto eius in dolorem quo quae
+                maiores consequuntur libero consectetur officia. "
+            </p>
+        </div>
+    </div>
+    <div class="topclasss">
+        <div class="imagediv">
+
+        </div>
+    </div>
+
+    <div class="main">
+
+        <div class=" a hods">
+
+            <div class="heads">
+                <h1>Head of Department</h1>
+            </div>
+            <div class="midcont">
+                <div class="contentss">
+
+
+                    <div class="b">
+                        <div class="one img1"></div>
+                        <div class="two">
+                            <h3>Sir: Sukant Nayak</h3>
+                            <br>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Ph.D in Pshycology</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;English, V.Education
+                            </span>
+                            Class 10th with excellent hold on english language
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="b ">
+                        <div class="one img2"></div>
+                        <div class="two">
+                            <h3>Miss: Saniya Nayak</h3>
+                            <br>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Ph.D in Management</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div>&nbsp;&nbsp; English, V.Education
+                            </span>
+                            Class 8th to 10th with excellent hold on english language
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class=" a teaching">
+            <div class="heads">
+                <h1>Teaching Staffs</h1>
+            </div>
+            <div class="midcont">
+                <div class="contentss">
+
+
+                    <div class="b">
+                        <div class="one img3"></div>
+                        <div class="two">
+                            <h3>Sir: Ashutosh Yadav</h3>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Master's in C.A</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;Science, Maths, S.S
+                            </span>
+                            Class 6th to 10th Best Teacher Of the Year.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="b">
+                        <div class="one img4"></div>
+                        <div class="two">
+                            <h3>Sir: Sandeep Yadav</h3>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Bsc in Chemistry</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;&nbsp;Science.
+                            </span>
+                            Class 6th to 10th with Deep knowledge of science subject
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="b">
+                        <div class="one img5"></div>
+                        <div class="two">
+                            <h3>Sir: Anish Yadav</h3>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Bachlor of commerce</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;&nbsp;Maths.
+                            </span>
+                            Class 6th to 8th with excellent knowledge of Maths.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="b">
+                        <div class="one img3"></div>
+                        <div class="two">
+                            <h3>Miss: Aaiyesha Khan </h3>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Master's in Comp. App</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;&nbsp;Science, Maths, S.S
+                            </span>
+                            Class 6th to 10th with excellent knowledge of computer application.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="b">
+                        <div class="one img3"></div>
+                        <div class="two">
+                            <h3>Miss: Surbhi Nishad</h3>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Bsc in Info Tech</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;&nbsp;Computer
+                            </span>
+                            Class 6th to 8th with excellent knowledge of computer application.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="b">
+                        <div class="one img3"></div>
+                        <div class="two">
+                            <h3>Miss: Aqsa Chauhan</h3>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Bachlor's in M&s</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;&nbsp;S.S
+                            </span>
+                            Class 6th to 10th with excellent knowledge of computer application.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="b">
+                        <div class="one img3"></div>
+                        <div class="two">
+                            <h3>Miss: Roshani Khan</h3>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Bacholer's in Arts</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;&nbsp;maths
+                            </span>
+                            Class 6th to 8th with excellent knowledge of computer application.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="b">
+                        <div class="one img3"></div>
+                        <div class="two">
+                            <h3>Miss: Tanzeema Khan</h3>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Master's in Ecomonics</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;&nbsp;Science, Maths, S.S
+                            </span>
+                            Class 6th to 10th with excellent knowledge of computer application.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="b">
+                        <div class="one img3"></div>
+                        <div class="two">
+                            <h3>Miss: Qayyuma Khan</h3>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Bsc in maths</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;&nbsp;Maths, S.S
+                            </span>
+                            Class 6th with excellent knowledge of computer application.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="b">
+                        <div class="one img3"></div>
+                        <div class="two">
+                            <h3>Miss: Sanju ma'am</h3>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Master's in Comp. App</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;&nbsp;Hindi
+                            </span>
+                            Class 6th to 10th with excellent knowledge of computer application.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="b">
+                        <div class="one img3"></div>
+                        <div class="two">
+                            <h3>Miss: Pooja Vishwakarma</h3>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Msc .IT</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;&nbsp;Maths, S.S
+                            </span>
+                            Class 6th to 10th with excellent knowledge of computer application.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="b">
+                        <div class="one img3"></div>
+                        <div class="two">
+                            <h3>Miss: Saroja ma'am</h3>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Msc .IT</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;&nbsp;Maths, S.S
+                            </span>
+                            Class 6th to 10th with excellent knowledge of computer application.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="b">
+                        <div class="one img3"></div>
+                        <div class="two">
+                            <h3>Miss: Aziza Khan</h3>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;Msc .IT</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div> &nbsp;&nbsp;&nbsp; A, b, c, d
+                            </span>
+                            Class 6th to 10th with excellent knowledge of computer application.
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class=" a nonteaching">
+            <div class="heads">
+                <h1>Non- Teaching Staffs</h1>
+            </div>
+            <div class="midcont">
+                <div class="contentss">
+                    <div class="b ">
+                        <div class="one imgvikrant"></div>
+                        <div class="two">
+                            <h3>Sir: Vikrant Tiwari</h3>
+                            <br>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;10th Fail</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div>&nbsp;&nbsp;&nbsp; Motivational Speaker
+                            </span>
+                            Class 8th to 10th with excellent hold on english language
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="b ">
+                        <div class="one img2"></div>
+                        <div class="two">
+                            <h3>Miss: Rubina Khan</h3>
+                            <br>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;10th Pass</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div>&nbsp;&nbsp;&nbsp; Peon (Taai)
+                            </span>
+                            Full time with excellent hold on english language
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="b ">
+                        <div class="one img2"></div>
+                        <div class="two">
+                            <h3>Miss: xyz</h3>
+                            <br>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;10th Pass</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div>&nbsp;&nbsp;&nbsp; Peon (Taai)
+                            </span>
+                            Full time with excellent hold on english language
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="b ">
+                        <div class="one img2"></div>
+                        <div class="two">
+                            <h3>Miss: abc</h3>
+                            <br>
+                            <span>
+                                <div class="icons quali">
+                                </div> <b>&nbsp;&nbsp;&nbsp;&nbsp;10th Pass</b>
+                            </span>
+
+                            <span>
+                                <div class=" icons subs">
+                                </div>&nbsp;&nbsp;&nbsp; Peon (Taai)
+                            </span>
+                            Full time with excellent hold on english language
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="footers">
+        <div class="outer_main">
+            <div class="top_footer">
+                <div class="leftfooter">
+                    <p><i class="fi fi-ss-marker"></i> Pelhar Bg.no. 4<br> &nbsp;&nbsp;&nbsp;&nbsp;Vasai (e), Palghar -
+                        401208, Maharashtra</p><br>
+                    <p><i class="fi fi-sr-phone-call"></i>
+                        8080694522&nbsp;/&nbsp;9156960791</p><br>
+                    <p> <i class="fi fi-sr-envelope-dot"></i> twinklestarenglishhighschool@gmail.com</p>
+                </div>
+                <br>
+                <div class="rightfooter">
+                    <h5><i class="fi fi-ss-school"></i>
+                        About Us</h5><br>
+                    <p>Lorem ipsum, Aboutdolor sit amet consectetur adipisicing elit. Reprehenderit, aperiam? Loremlore
+                        ipsum totam illo provident blanditiis laborum!</p>
+                    <div class="ftioc iconssbox">
+                        <i class="fi fi-brands-youtube"></i>
+                        <i class="fi fi-brands-facebook"></i>
+                        <i class="fi fi-brands-instagram"></i>
+                        <i class="fi fi-brands-twitter"></i>
+                        <i class="fi fi-brands-whatsapp"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <br>
+            <div class="margingfooter"> © 2023 Twikle Star English High School. All Rights Reserved</div>
+
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
